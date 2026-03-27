@@ -3,7 +3,7 @@ self.addEventListener('install', (event) => {
         caches.open('static-cache').then((cache) => {
             return cache.addAll([
                 './',
-                './game.html',
+                './index.html',
                 './manifest.json',
                 './dinosaur.png'
             ]);
