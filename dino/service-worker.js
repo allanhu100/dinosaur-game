@@ -2,10 +2,10 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open('static-cache').then((cache) => {
             return cache.addAll([
-                './',
-                './index.html',
-                './manifest.json',
-                './dinosaur.png'
+                './dino/',
+                './dino/index.html',
+                './dino/manifest.json',
+                './dino/dinosaur.png'
             ]);
         })
     );
