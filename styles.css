@@ -18,7 +18,19 @@ body {
     z-index: 1000;
 }
 
-.logo { font-size: 1.5rem; font-weight: bold; }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.logo:link,
+.logo:visited,
+.logo:hover,
+.logo:active {
+  color: white;
+}
 
 .nav-bar a {
     color: #fff;
