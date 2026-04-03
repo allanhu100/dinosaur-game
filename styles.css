@@ -23,6 +23,7 @@ body {
   font-weight: bold;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .logo:link,
